@@ -1,0 +1,133 @@
+*{box-sizing:border-box;}
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top-wrapper{padding:180px 0 100px 0px;font:bold;text-align:center;background-image:url(https://prog-8.com/images/html/advanced/top.png);
+background-size:cover;color:white;}
+
+.moji{width:100%;padding:0 15px;margin:0 auto;}
+
+@media(max-width:900px){
+  .moji{width:100%;font-size:10px;}
+}
+@media(max-width:550px){
+  .moji{width:100%;font-size:10px;}
+}
+
+
+.top-wrapper h1{font-size:45px;opacity:0.7;letter-spacing:5px;}
+.top-wrapper p{opacity:0.7;font-size:18px;}
+.btn-wrapper{padding-top:20px ;
+}
+.btn-wrapper p{padding:15px;}
+.btn{font-size:16px;padding:8px 24px;opacity:0.8;color:white;display:inline-block;border-radius:6px;}
+.sinki{background-color:#239b76;}
+.facebook{background-color:#3b5998;margin-right:10px}
+.twitter{background-color:#55acee;}
+  .btn-wrapper p{padding:3px;}
+  .btn{font-size:3px;padding:8px 24px;opacity:0.8;color:white;display:inline-block;border-radius:6px;}
+.アドバン年間行事 h2{text-align:center;margin:50px;}
+  @media(max-width:900px){
+    .top-wrapper h1{font-size:12px;opacity:0.7;letter-spacing:5px;}
+    .top-wrapper p{opacity:0.7;font-size:9px;padding-top:4px; }
+    .btn-wrapper{padding-top:20px ;font-size: 8px;}
+
+  }
+  @media(max-width:550px){
+    .top-wrapper h1{font-size:12px;opacity:0.7;letter-spacing:5px;}
+    .top-wrapper p{opacity:0.7;font-size:9px;padding-top:4px; }
+    .btn-wrapper{padding-top:20px ;font-size: 8px;}
+  }
+
+
+header {height:65px;background-color:rgba(34, 49, 52, 0.9);position:fixed;top:0;
+  z-index:10;width:100%;
+}
+
+
+/* logoクラスのCSSを指定してください */
+.header-logo{width:500px;height:65px;margin:20px;color:red;opacity:0.7;}
+.header{float:left;}
+.login a{float:right;background-color:rgba(255, 255, 255, 0.3);color:white;padding:20px;
+   transition:all 0.5s;
+}
+@media(max-width:900px){
+  .header-logo{width:500px;height:3px;margin:20px;color:red;opacity:0.7;}
+  .login a{float:right;background-color:rgba(255, 255, 255, 0.3);color:white;padding:3px;
+     transition:all 0.5s}
+}
+
+@media(max-width:550px){
+  .header-logo{width:500px;height:3px;margin:20px;color:red;opacity:0.7;}
+  .login a{float:right;background-color:rgba(255, 255, 255, 0.3);color:white;padding:3px;
+     transition:all 0.5s}
+
+.log:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover {
+  opacity: 1;}
+
+
+  .Learn{background-color:#f7f7f7;margin-top:100px;}
+ .Learn-contents { width:100%;padding:0 15px;margin:0 auto;text-align:center;}
+ .Learn-contents h2{font-weight:normal;padding-bottom:50px;color:#5f5d60;}
+.btn-second {display:flex;flex-wrap:wrap;}
+.message{width:80%;display: inline-block; margin-top: 10px; font-size: 13px;color: #b3aeb5;}
+.AAA{position:relative;text-align: center;flex:auto;width:30%;}
+.AAA a {position:absolute;top:30%;left:5%;color:black;font-size:12px;width:90%;}
+.clear{clear:left;}
+}
+
+@media(max-width:900px){
+  .Learn{background-color:#f7f7f7;margin-top:100px;}
+ .Learn-contents { width:100%;padding:0 15px;margin:0 auto;text-align:center;}
+ .Learn-contents h2{font-weight:normal;padding-bottom:50px;color:#5f5d60;}
+.btn-second {display:flex;flex-wrap:wrap;}
+.message{width:80%;display: inline-block; margin-top: 10px; font-size: 13px;color: #b3aeb5;}
+.AAA{position:relative;text-align: center;flex:auto;width:30%;}
+.AAA a {position:absolute;top:30%;left:5%;color:black;font-size:12px;width:90%;}
+.clear{clear:left;}
+}
+@media(max-width:550px){
+  .Learn{background-color:#f7f7f7;margin-top:100px;padding:50px;}
+ .Learn-contents { width:100%;padding:0 15px;margin:0 auto;text-align:center;}
+ .Learn-contents h2{font-weight:normal;padding-bottom:50px;color:#5f5d60;}
+.btn-second {display:flex;flex-wrap:wrap;}
+.message{width:80%;display: inline-block; margin-top: 10px; font-size: 13px;color: #b3aeb5;}
+.AAA{position:relative;text-align: center;flex:auto;width:100%;}
+.AAA a {position:absolute;top:35%;left:6%;color:black;font-size:12px;width:90%;}
+.clear{clear:left;}
+}
+
+
+.Bzentai{text-align:center;margin:80px 0px 0 0;}
+.Bnakami{font-size:12px;color:#5f5d60;padding-bottom:50px;}
+.kaihatu{padding:15px 40px;background-color:#5dca88;color:white;opacity:0.8;box-shadow:0 7px #1a7940;
+  }
+.kaihatu:hover{opacity:1;}
+.kaihatu:active{position:relative;top:7px;box-shadow:none;}
+
+.footer{border-top:1px solid #eee;padding-top:30px;padding-bottom:30px;}
+.footer-nakami{padding-left:60px;}
+.progate{width:124px;}
+.footer-nakami p{font-size:12px;color:#b3aeb5;}
